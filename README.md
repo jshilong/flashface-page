@@ -1,15 +1,10 @@
-# LivePhoto
+# FlashFace
 
 This is the repository that contains source code for the webpage of LivePhoto.
 
 If you find LivePhoto useful for your work please cite:
 ```
-@article{chen2023livephoto,
-      title={LivePhoto: Real Image Animation with Text-guided Motion Control},
-      author={Chen, Xi and Liu, Zhiheng and Chen, Mengting and Feng, Yutong and Liu, Yu and Shen, Yujun and Zhao, Hengshuang},
-      journal={arXiv preprint arXiv:2312.02928},
-      year={2023}
-    }
+
 ```
 
 # Website License
