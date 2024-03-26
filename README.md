@@ -4,7 +4,14 @@ This is the repository that contains source code for the webpage of LivePhoto.
 
 If you find LivePhoto useful for your work please cite:
 ```
-
+@misc{zhang2024flashface,
+      title={FlashFace: Human Image Personalization with High-fidelity Identity Preservation}, 
+      author={Shilong Zhang and Lianghua Huang and Xi Chen and Yifei Zhang and Zhi-Fan Wu and Yutong Feng and Wei Wang and Yujun Shen and Yu Liu and Ping Luo},
+      year={2024},
+      eprint={2403.17008},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
 # Website License
