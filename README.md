@@ -1,6 +1,6 @@
 # FlashFace
 
-This is the repository that contains the source code for the webpage of LivePhoto.
+This is the repository that contains the source code for the webpage of FlashFace.
 
 If you find FlashFace useful for your work please cite:
 ```
