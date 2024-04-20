@@ -1,8 +1,8 @@
 # FlashFace
 
-This is the repository that contains source code for the webpage of LivePhoto.
+This is the repository that contains the source code for the webpage of LivePhoto.
 
-If you find LivePhoto useful for your work please cite:
+If you find FlashFace useful for your work please cite:
 ```
 @misc{zhang2024flashface,
       title={FlashFace: Human Image Personalization with High-fidelity Identity Preservation}, 
