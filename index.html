@@ -144,14 +144,58 @@
             <div class="columns is-centered">
                 <div class="column is-four-fifths">
     
-                    <h2 class="title is-3" style="text-align: center;">  Update on May 7 </h2>
+                    <h2 class="title is-3" style="text-align: center;">  Update on May 14 </h2>
                     <div class="content has-text-justified">
                         <p>
                             🔥🔥🔥 <a href="https://replicate.com/zsxkib/flash-face"> <b>Online Demo</b></a> 🔥🔥🔥 has been graciously provided by  <a href="https://github.com/zsxkib"> <b>Sakib Ahamed</b></a> .
-                            For optimal results, especially for Asian faces, it's strongly advised to read through this <a href="https://github.com/ali-vilab/FlashFace/blob/main/docs/en.md"> <b>tutorial</b></a> / <a href="https://github.com/ali-vilab/FlashFace/blob/main/docs/zh_cn.md"> <b>中文教程</b></a> before jumping in.       <br>     <br>                
+                            For optimal results, <b>please use the following hyper-parameters instead of the default hyper-parameters of this demo to obtain stable ID Fidelity</b>. It's strongly advised to read through this <a href="https://github.com/ali-vilab/FlashFace/blob/main/docs/en.md"> <b>tutorial</b></a> / <a href="https://github.com/ali-vilab/FlashFace/blob/main/docs/zh_cn.md"> <b>中文教程</b></a> before jumping in. 
+
+                            <br>     <br>                
                             
-                             感谢 <a href="https://github.com/zsxkib"> <b>Sakib Ahamed</b></a> 提供的 🔥🔥🔥<a href="https://replicate.com/zsxkib/flash-face"> <b>Online Demo</b></a> 🔥🔥🔥， 为了获得更好的生成结果，特别是对于亚洲人脸， 我们强烈建议您请在使用前先行阅读 <a href="https://github.com/ali-vilab/FlashFace/blob/main/docs/zh_cn.md"> <b>中文教程</b></a>  获取一些参数经验，否则可能会导致生成结果较差。
+                             感谢 <a href="https://github.com/zsxkib"> <b>Sakib Ahamed</b></a> 提供的 🔥🔥🔥<a href="https://replicate.com/zsxkib/flash-face"> <b>Online Demo</b></a> 🔥🔥🔥， <b>为了获得更好的生成结果，请使用以下参数进行尝试而不是 demo 中默认参数</b>， 我们强烈建议您请在使用前先行阅读 <a href="https://github.com/ali-vilab/FlashFace/blob/main/docs/zh_cn.md"> <b>中文教程</b></a>  获取一些参数经验，否则可能会导致生成结果较差。
                             </p>
+<pre>
+```<b>Recommended hyper-parameters to obtain stable ID Fidelity</b>
+# Please include the age word in the prompt, e.g. young woman/man
+# Otherwise, FlashFace tends to produce middle-aged faces, which tend to be fatter.
+# 请在 prompt 包含年龄词如 young，否则 FlashFace 可能生成中年照片，脸部一般偏胖
+
+
+positive prompt: A handsome young man / A beautiful young woman .......
+face position: [0.3, 0.2, 0.6, 0.5] # avoid generating faces that are too large or too small
+Reference Feature Strength: 1.2
+Reference Guidance Strength: 3.2
+Step Index to Launch Ref Guidance: 750
+
+# When artifacts are found on the face, reduce these three values appropriately.
+# 当脸部出现贴图感,请适当调低这三个参数
+```
+</pre>
+<p align="center">
+    <img src="./static/githubfigs/output1-min.png" width="80%"> <br>
+    
+    </p>
+<pre>
+```<b>Recommended hyper-parameters to change the age</b>
+# Please include age words in the prompt, e.g. baby girl/boy,  An very old woman/man
+
+
+positive prompt: A baby girl / An very old woman ......
+face position: [0.3, 0.2, 0.6, 0.5] # avoid generating faces that are too large or too small
+default_text_control_scale = 8.5
+
+Reference Feature Strength: 0.9
+Reference Guidance Strength: 2.5
+Step Index to Launch Ref Guidance: 750
+
+# When ID Fidelity is not enough for the changed-aged person, please turn these values up
+# 如果感觉人脸相似度不够，请调高这三个参数
+```
+</pre>
+<p align="center">
+    <img src="./static/githubfigs/output2-min.png" width="80%"> <br>
+    
+    </p>
                     </div>
        
 
