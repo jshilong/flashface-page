@@ -143,18 +143,37 @@
         <div class="container is-max-desktop">
             <div class="columns is-centered">
                 <div class="column is-four-fifths">
-    
-                    <h2 class="title is-3" style="text-align: center;">  Update on May 14 </h2>
+
+                    <h2 class="title is-3" style="text-align: center;"> Update on May 30 </h2>
                     <div class="content has-text-justified">
                         <p>
-                            🔥🔥🔥 <a href="https://replicate.com/zsxkib/flash-face"> <b>Online Demo</b></a> 🔥🔥🔥 has been graciously provided by  <a href="https://github.com/zsxkib"> <b>Sakib Ahamed</b></a> .
-                            For optimal results, <b>please use the following hyper-parameters instead of the default hyper-parameters of this demo to obtain stable ID Fidelity</b>. It's strongly advised to read through this <a href="https://github.com/ali-vilab/FlashFace/blob/main/docs/en.md"> <b>tutorial</b></a> / <a href="https://github.com/ali-vilab/FlashFace/blob/main/docs/zh_cn.md"> <b>中文教程</b></a> before jumping in. 
+                            🔥🔥🔥
+                            <a href="https://github.com/cold-hand/ComfyUI-FlashFace"> <b>ComfyUI-FlashFace</b></a> 🔥🔥🔥 has been graciously provided by
+                            <a href="https://github.com/cold-hand"> <b>cold-hand</b></a> .They find that <b>adding more reference faces(instead default 4 faces in my implementation) can further enhance the FlashFace.</b> This implementation is still in the process of rapid iteration and feature
+                            addition.）
 
-                            <br>     <br>                
-                            
-                             感谢 <a href="https://github.com/zsxkib"> <b>Sakib Ahamed</b></a> 提供的 🔥🔥🔥<a href="https://replicate.com/zsxkib/flash-face"> <b>Online Demo</b></a> 🔥🔥🔥， <b>为了获得更好的生成结果，请使用以下参数进行尝试而不是 demo 中默认参数</b>， 我们强烈建议您请在使用前先行阅读 <a href="https://github.com/ali-vilab/FlashFace/blob/main/docs/zh_cn.md"> <b>中文教程</b></a>  获取一些参数经验，否则可能会导致生成结果较差。
+                            <br> <br> 感谢
+                            <a href="https://github.com/cold-hand"> <b>cold-hand</b></a> 开发的 🔥🔥🔥
+                            <a href="https://github.com/cold-hand/ComfyUI-FlashFace"> <b>ComfyUI</b></a> 🔥🔥🔥， <b>他们发现使用更多的 reference face 可以达到更好的效果（而不是我repo 里面默认的4张）</b>，这个 repo 还在快速迭代与添加新功能中.
+                        </p>
+
+
+
+                        <h2 class="title is-3" style="text-align: center;"> Update on May 14 </h2>
+                        <div class="content has-text-justified">
+                            <p>
+                                🔥🔥🔥
+                                <a href="https://replicate.com/zsxkib/flash-face"> <b>Online Demo</b></a> 🔥🔥🔥 has been graciously provided by
+                                <a href="https://github.com/zsxkib"> <b>Sakib Ahamed</b></a> . For optimal results, <b>please use the following hyper-parameters instead of the default hyper-parameters of this demo to obtain stable ID Fidelity</b>. It's strongly advised to read through this
+                                <a href="https://github.com/ali-vilab/FlashFace/blob/main/docs/en.md"> <b>tutorial</b></a> /
+                                <a href="https://github.com/ali-vilab/FlashFace/blob/main/docs/zh_cn.md"> <b>中文教程</b></a> before jumping in.
+
+                                <br> <br> 感谢
+                                <a href="https://github.com/zsxkib"> <b>Sakib Ahamed</b></a> 提供的 🔥🔥🔥
+                                <a href="https://replicate.com/zsxkib/flash-face"> <b>Online Demo</b></a> 🔥🔥🔥， <b>为了获得更好的生成结果，请使用以下参数进行尝试而不是 demo 中默认参数</b>， 我们强烈建议您请在使用前先行阅读
+                                <a href="https://github.com/ali-vilab/FlashFace/blob/main/docs/zh_cn.md"> <b>中文教程</b></a> 获取一些参数经验，否则可能会导致生成结果较差。
                             </p>
-<pre>
+                            <pre>
 ```<b>Recommended hyper-parameters to obtain stable ID Fidelity</b>
 # Please include the age word in the prompt, e.g. young woman/man
 # Otherwise, FlashFace tends to produce middle-aged faces, which tend to be fatter.
@@ -171,11 +190,11 @@ Step Index to Launch Ref Guidance: 750
 # 当脸部出现贴图感,请适当调低这三个参数
 ```
 </pre>
-<p align="center">
-    <img src="./static/githubfigs/output1-min.png" width="80%"> <br>
-    
-    </p>
-<pre>
+                            <p align="center">
+                                <img src="./static/githubfigs/output1-min.png" width="80%"> <br>
+
+                            </p>
+                            <pre>
 ```<b>Recommended hyper-parameters to change the age</b>
 # Please include age words in the prompt, e.g. baby girl/boy,  An very old woman/man
 
@@ -192,14 +211,60 @@ Step Index to Launch Ref Guidance: 750
 # 如果感觉人脸相似度不够，请调高这三个参数
 ```
 </pre>
-<p align="center">
-    <img src="./static/githubfigs/output2-min.png" width="80%"> <br>
-    
-    </p>
-                    </div>
-       
+                            <p align="center">
+                                <img src="./static/githubfigs/output2-min.png" width="80%"> <br>
+                                <img src="./static/githubfigs/output3-min.png" width="80%"> <br>
+                            </p>
+                        </div>
 
-    
+
+
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column is-four-fifths">
+
+                    <h2 class="title is-3" style="text-align: center;"> Update on April 19 </h2>
+                    <div class="content has-text-justified">
+                        <p>
+                            We are excited to announce that the inference code for
+                            <a href="https://github.com/ali-vilab/FlashFace"> <b>FlashFace-SD1.5</b></a> is now available. This released version represents a clear advancement over our paper, as it has been trained for an extended duration. Notably, this enhanced checkpoint demonstrates remarkable progress
+                            in terms of lighting and shadow effects. It show strong identity preservation ability even for <b>non-celebrities</b> . Please refer to the following images for more details. Stay tuned for more versions!
+
+                        </p>
+                    </div>
+
+                    <div class="image-area">
+                        <img src="./static/githubfigs/flashface.gif" width="100%"> <br>
+                    </div>
+
+                    <div class="image-area">
+                        <img src="./static/githubfigs/genrate_afanda.png" width="100%"> <br>
+                    </div>
+
+                    <div class="image-area">
+                        <img src="./static/githubfigs/genrate_baixue.png" width="100%"> <br>
+                    </div>
+                    <div class="image-area">
+                        <img src="./static/githubfigs/genrate_alen.png" width="100%"> <br>
+                    </div>
+                    <div class="image-area">
+                        <img src="./static/githubfigs/genrate_man.png" width="100%"> <br>
+                    </div>
+                    <div class="image-area">
+                        <img src="./static/githubfigs/genrate_woman.png" width="100%"> <br>
+                    </div>
+                    <div class="image-area">
+                        <img src="./static/githubfigs/details.png" width="100%"> <br>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -207,54 +272,10 @@ Step Index to Launch Ref Guidance: 750
 
 
 
-<section class="section">
-    <div class="container is-max-desktop">
-        <div class="columns is-centered">
-            <div class="column is-four-fifths">
-
-                <h2 class="title is-3" style="text-align: center;">  Update on April 19 </h2>
-                <div class="content has-text-justified">
-                    <p>
-                        We are excited to announce that the inference code for <a href="https://github.com/ali-vilab/FlashFace"> <b>FlashFace-SD1.5</b></a>  is now available. This released version represents a clear advancement over our paper, as it has been trained for an extended duration. Notably, this enhanced checkpoint demonstrates remarkable progress in terms of lighting and shadow effects. It show strong identity preservation ability even for <b>non-celebrities</b> . Please refer to the following images for more details.   Stay tuned for more versions!
-                        
-                    </p>
-                </div>
-   
-                    <div class="image-area">
-                        <img src="./static/githubfigs/flashface.gif" width="100%"> <br>
-                    </div>
-
-                <div class="image-area">
-                    <img src="./static/githubfigs/genrate_afanda.png" width="100%"> <br>
-                </div>
-
-                <div class="image-area">
-                    <img src="./static/githubfigs/genrate_baixue.png" width="100%"> <br>
-                </div>
-                <div class="image-area">
-                    <img src="./static/githubfigs/genrate_alen.png" width="100%"> <br>
-                </div>
-                <div class="image-area">
-                    <img src="./static/githubfigs/genrate_man.png" width="100%"> <br>
-                </div>
-                <div class="image-area">
-                    <img src="./static/githubfigs/genrate_woman.png" width="100%"> <br>
-                </div>
-                <div class="image-area">
-                    <img src="./static/githubfigs/details.png" width="100%"> <br>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
 
 
 
 
-
-
-    
     <section class="section">
         <div class="container is-max-desktop">
             <div class="columns is-centered">
